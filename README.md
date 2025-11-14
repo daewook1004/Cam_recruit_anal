@@ -83,6 +83,21 @@ Findings
 - Moderate positive relationship between etest_p and placement success.
 - mba_p shows a negative correlation with placement status, implying that higher MBA scores might not guarantee better employability outcomes
 
+### Pairplot of Top 5 Important Features
+
+Using a Random Forest Classifier, we extracted the Top 5 most important features and visualized their pairwise relationships.
+This helps reveal how key variables interact across different placement outcomes.
+> 'workex', 'ssc_p', 'degree_p', 'mba_p', 'hsc_p'
+<p align="center"> <img src="graphfolder/pairplot_top5_20251113_172733.png" width="800"> </p>
+
+Insights
+
+- Placed students tend to cluster around higher academic scores in ssc_p, degree_p, and hsc_p.
+- workex clearly separates the groups, indicating prior experience as a major differentiator.
+- A weak or inverse trend is visible between mba_p and placement, consistent with later model interpretation.
+
+
+
 ### Monotonicity & PDP (Partial Dependence)
 To verify directional influence, monotonicity checks using Spearman correlation and Partial Dependence Plots were performed.
 <p align="left"> <img src="graphfolder/pdp_20251113_173151.png" width="800"> </p>
