@@ -18,15 +18,6 @@ Through extensive exploratory data analysis (EDA) and model interpretability usi
 └── README.md                              # Project documentation
 ```
 ---
-## 📂 Project Structure
-```
-├── main.py # Training and validation logic for RNN & LSTM models
-├── generate.py # Generates text using the trained model
-├── model.py # Defines Vanilla RNN & LSTM architectures
-├── dataset.py # Loads and preprocesses the Shakespeare dataset
-└── shakespeare_train.txt # Source text data for training
-```
----
 ## 🚀 How to Run
 ### Clone the repository
 ```
