@@ -86,7 +86,31 @@ Insights
 Correlation analysis was conducted to detect associations among academic and employability factors.
 <p align="left"> <img src="graphfolder/corr_matrix_20251113_165256.png" width="850"> </p>
 
-Insights
+Findings
 
-- Most scores cluster between 50–80%, indicating generally average-to-good academic performance.
-- Employment test scores (etest_p) show a wide range, suggesting differences in test difficulty or preparation.
+- Strong positive correlations among academic grades: ssc_p, hsc_p, and degree_p.
+- Moderate positive relationship between etest_p and placement success.
+- mba_p shows a negative correlation with placement status, implying that higher MBA scores might not guarantee better employability outcomes
+
+### Monotonicity & PDP (Partial Dependence)
+To verify directional influence, monotonicity checks using Spearman correlation and Partial Dependence Plots were performed.
+<p align="left"> <img src="graphfolder/pdp_20251113_173151.png" width="800"> </p>
+
+Observations
+- ssc_p, hsc_p, and degree_p display clear monotonic increases with placement probability.
+- etest_p acts as a supporting variable—important but not dominant.
+- Interestingly, mba_p shows an inverse pattern where high-scoring MBA students were less likely to be placed, potentially reflecting employer preference for balanced profiles over high academic achievers
+
+### Summary of EDA
+- **Academic performance** (secondary → higher → degree) remains the most consistent predictor of placement success.
+- **Work experience** positively contributes to employability outcomes
+- **MBA performance** introduces a unique reverse effect that warrants deeper domain-level interpretation
+- Interestingly, mba_p shows an inverse pattern where high-scoring MBA students were less likely to be placed, potentially reflecting employer preference for balanced profiles over high academic achievers
+
+
+
+
+
+
+
+
