@@ -21,7 +21,7 @@ Through extensive exploratory data analysis (EDA) and model interpretability usi
 ## 🚀 How to Run
 ### Clone the repository
 ```
-git clone https://github.com/daewook1004/CampusRecruit_Analysis.git
+git clone github.com/daewook1004/Cam_recruit_anal.git
 cd Cam_recruit_anal
 ```
 ### Install dependencies
